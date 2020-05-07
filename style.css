@@ -168,7 +168,7 @@ body {
   background-image: url(images/bgtriangle.png) ;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  width:33%;
+  width:400px;
   margin: 0 auto;
   display: inline-block;
 }
@@ -177,7 +177,7 @@ body {
   background-image: url(images/bgtriangle.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  width: 33%;
+  width: 400px;
   margin: 0 auto;
   display: inline-block;
   
