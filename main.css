@@ -11,6 +11,12 @@ figure {
 [hidden] {
   display: none;
 }
+html, body {
+  background: rgb(60, 60, 212);
+  background-image: -webkit-linear-gradient(top, #ccf, #fff);
+  background-image: linear-gradient(to bottom, #ccf, #fff);
+  color: #333;
+}
 /* Columns and layout */
 * {
   box-sizing: border-box;
