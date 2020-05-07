@@ -11,12 +11,6 @@ figure {
 [hidden] {
   display: none;
 }
-html, body {
-  background: rgb(60, 60, 212);
-  background-image: -webkit-linear-gradient(top, #ccf, #fff);
-  background-image: linear-gradient(to bottom, #ccf, #fff);
-  color: #333;
-}
 /* Columns and layout */
 * {
   box-sizing: border-box;
@@ -61,7 +55,7 @@ main {
   max-width: 60rem;
   width: 100%;
 }
-@media (max-width: 680px) {
+@media (max-width: 1000px) {
   .flex-grid {
     display: block;
   }
