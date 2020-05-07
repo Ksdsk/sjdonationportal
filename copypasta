@@ -1,0 +1,50 @@
+MAIN CSS:
+    <link rel="stylesheet" href="styles.css">
+
+
+
+HEAD:
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+HEADER:
+    <!---Header-->
+    <div class="container">
+        <div class="logo">
+            <div class="centre">
+                <img src="logo/sjdp_t.png" alt="logo" width="100px" height="100px">
+            </div>
+        </div>
+        <div class="nav-wrapper">
+            <div class="centre">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="donate.html">Charities</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="news.html">News</a>
+                </div>
+            </div>
+        </div>
+    
+<!--Featured Charities-->
+    <div class="container">
+        <div class="centre">
+            <div class="largetext">
+                Featured Charities
+            </div>
+            <div class="carousel">
+                <img src="images/vishelp.jpeg" alt="Thank you to all COVID-19 Frontliners! 100% Recovery Rate!">
+                <img src="images/Homeless.jpeg" alt="Giving hope to the homeless.">
+                <img src="images/Canadian-Cander-Society-Logo.jpeg" alt="Helping Canadians battle cancer.">
+            </div>
+        </div>
+    </div>

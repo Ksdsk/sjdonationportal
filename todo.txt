@@ -1,0 +1,67 @@
+Saint John Donation Portal 
+TODO
+
+1. Build the Project
+    - creating folder system
+    - adding files
+    - connecting files
+
+2. Navigation Bar  
+    - Homepage
+    - Donation
+    - Article *
+
+3. Featured Charities
+    - scrolling images with alt text
+
+4. Introduction
+    - Our Services paragraph
+    - Background hourglass vector
+    - Honeycomb-like image storage
+
+5. Ways you can help
+    - Donation list
+    - Events list
+    - Share us list
+    - Holdable image
+
+6. Inspirational quote
+    - Large image stretch
+    - String on top
+
+7. Connect social media
+    - Embed Instagram Feed 
+    - Introduce icons
+    
+8. Footer
+    - No Subscribe Form, but encourage people to follow social media
+    - Add email
+    - Add Copyright
+
+9. Overview
+    - Add favicon
+    - Add website description
+
+Page 2 - Donation Page
+
+1. Navigation Bar
+    - Copy from Page 1
+
+2. Array of charities in a portfolio style - fill up website.
+    - Using a Border in between
+    - Add short description of charity below each box
+
+3. Footer
+    - Copy from page 1
+
+Page x - Templated Charity Introduction
+
+1. Main
+    - Picture
+    - Title
+
+2. Textbox
+    - simple textbox designed for longer description
+
+3. Footer
+    - Copy from page 1

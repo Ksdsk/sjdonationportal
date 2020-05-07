@@ -1,0 +1,45 @@
+/* To make the parallax effect easy to view I added a large top and bottom margin, delete these or tweak them to your liking */
+
+.bannerItem{
+    padding-top:200px;
+    padding-bottom:200px; /* padding above the header */
+  width:1000px;
+  margin:auto;
+
+}
+
+
+.banner-text{   
+    color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 2.5vw;
+    word-wrap: normal;
+    background-color: rgba(39, 39, 39, 0.7);
+
+}
+
+.bannerItem{
+    background: #333;    
+    text-align: center;
+    height: 100% !important;
+   background: linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(24, 24, 24, 0.4) 100%), url("images/boardwalk.jpeg");
+  width: 100%;
+  background-attachment: fixed; 
+  background-size: inherit;
+background-repeat: repeat;
+  max-height: 0%;
+  background-size:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
