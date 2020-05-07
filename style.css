@@ -54,8 +54,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 body {
-  margin:0px;
-  font-family:'Roboto';
   text-align:center;
 }
 
@@ -113,13 +111,9 @@ body {
 }
 
 .smalltext {
-  justify-items: left;
   font-family: 'Quicksand', sans-serif;
-  object-position: left;
-  font-size: auto;
   text-align: left;
-  float: left;
-  clear: both;
+  font-size: 17.5px;
   margin: 25px;
 }
 
@@ -127,14 +121,12 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 50px;
   margin-top: 25px;
+  margin-bottom: 25px;
   text-align: center;
   clear: both;
   justify-content: center;
 }
 
-.containervp {
-  width: 100%;
-}
 .hex {
   width: 100%;
   height: 100%;
@@ -153,22 +145,17 @@ body {
   background-image: url(images/bgtriangle.png) ;
   background-size: cover;
   background-repeat: no-repeat;
-  width:470px;
-  height:auto;
+  width:420px;
   margin: 0 auto;
-  justify-content: center;
   display: inline-block;
-  
 }
 
 .div2{
   background-image: url(images/bgtriangle.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 470px;
-  height:auto;
+  width: 420px;
   margin: 0 auto;
-  justify-content: center;
   display: inline-block;
   
 }
