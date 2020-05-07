@@ -1,3 +1,129 @@
+html, body {
+  background-color: #ffffff;
+  height: 100%;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
+}
+
+.wrapper {
+  display: inline-block;
+  margin: 0 auto;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolioGrid {
+  width: 100%;
+  margin: 75px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width:1000px) {
+  #portfolioGrid {
+    width: 100%;
+    margin: 75px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width:500px) {
+  #portfolioGrid {
+    width: 100%;
+    margin: 75px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.grid-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.grid-item > a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-top:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 45%;
+  width: 10%;
+  text-align: center;
+  z-index: 1;
+  border-bottom: 3px solid #fff;
+}
+
+.grid-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay-top, .overlay-bot {
+  position: absolute;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  height: 50%;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.overlay-top {
+  top: -50%;
+}
+
+.overlay-bot {
+  bottom: -50%;
+}
+
+.grid-item h1 {
+  padding: 50% 0 0 0;
+}
+
+.grid-item p {
+  padding: 0 0 50% 0;
+  font-size: 15px;
+}
+
+.overlay-top,
+.overlay-bot {
+  transition: top 0.2s ease-out, bottom 0.2s ease-out;
+}
+
+.grid-item h1,
+.grid-item h2,
+.grid-item p {
+  transition: padding 0.2s ease-out 0.4s;
+  font-weight: 300;
+}
+
+.grid-item:hover .overlay-top {
+  top: 0;
+  transition-delay: 0.2s;
+}
+
+.grid-item:hover .overlay-bot {
+  bottom: 0;
+  transition-delay: 0.2s;
+}
+
+.grid-item:hover h1,
+.grid-item:hover h2 {
+  padding: 25% 0;
+  margin: 0;
+}
+
+.grid-item:hover p {
+  padding: 10% 0;
+  margin: 0;
+}
 
 
 .nav-wrapper {

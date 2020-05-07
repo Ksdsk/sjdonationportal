@@ -78,7 +78,7 @@ main {
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 html {
-  background: #F9FCFF;
+  background: rgb(255, 255, 255);
   color: #333;
   font-size: 10px;
   font-family: 'Avenir Next', Open Sans, sans-serif;
