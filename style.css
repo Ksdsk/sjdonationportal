@@ -150,9 +150,8 @@ body {
 
 .hex {
   width: 90%;
-  height: 90%;
-  margin-top: 85px;
-  margin-bottom: auto;
+  height: 100%;
+  margin-top: 100px;
 }
 
 .flexcontainer{
@@ -165,18 +164,18 @@ body {
 }
 .div1{
   background-image: url(images/bgtriangle.png) ;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  width:420px;
+  width:405px;
   margin: 0 auto;
   display: inline-block;
 }
 
 .div2{
   background-image: url(images/bgtriangle.png);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  width: 420px;
+  width: 405px;
   margin: 0 auto;
   display: inline-block;
   
