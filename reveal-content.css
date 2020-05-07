@@ -104,14 +104,12 @@
 @-webkit-keyframes show-svg-outline {
   to {
     stroke-dashoffset: 0;
-    visibility: hidden;
   }
 }
 
 @keyframes show-svg-outline {
   to {
     stroke-dashoffset: 0;
-    visibility: hidden;
   }
 }
 
