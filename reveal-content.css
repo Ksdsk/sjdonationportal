@@ -170,6 +170,9 @@
   visibility: hidden;
 }
 
+.options {
+  font-size: 15px;
+}
 /* Set up the "highlighted" state */
 
 .is-visible .option.highlighted {
