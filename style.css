@@ -168,7 +168,9 @@ body {
   background-image: url(images/bgtriangle.png) ;
   background-size: cover;
   background-repeat: no-repeat;
-  width:445px;
+  max-width:460px;
+  min-width: auto;
+  font-size: auto;
   margin: 0 auto;
   display: inline-block;
 }
@@ -177,12 +179,37 @@ body {
   background-image: url(images/bgtriangle.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 445px;
+  max-width: 460px;
+  min-width: auto;
   margin: 0 auto;
   display: inline-block;
   
 }
 
+@media (max-width: 460px) {
+
+  .div1{
+    background-image: url(images/bgtriangle.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:300px;
+    min-width: auto;
+    font-size: auto;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
+  .div2{
+    background-image: url(images/bgtriangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    min-width: auto;
+    margin: 0 auto;
+    display: inline-block;
+    
+  }
+}
 span{
 
     font-weight:bold;
