@@ -5,6 +5,7 @@ html, body {
     "sans-serif";
 }
 
+
 .wrapper {
   display: inline-block;
   margin: 0 auto;
@@ -72,7 +73,7 @@ html, body {
   overflow: hidden;
   height: 50%;
   color: #fff;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .overlay-top {
@@ -88,7 +89,6 @@ html, body {
 }
 
 .grid-item p {
-  padding: 0 0 50% 0;
   font-size: 15px;
 }
 
@@ -121,7 +121,7 @@ html, body {
 }
 
 .grid-item:hover p {
-  padding: 10% 0;
+  padding-top: 10%;
   margin: 0;
 }
 

@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
         <title>SJ Donation Portal</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-
         <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Oswald&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Dosis|Lato:700|Quicksand:300|Roboto:700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link href="main.css" rel="stylesheet">
+        <link rel="stylesheet" href="button.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+        <meta name="viewport" content="width=device-width">
 </head>
 <header>
         <div class="container">
@@ -34,47 +34,69 @@
     </header>
 <body>
 
-        <h1>JQuery Handle Single & Double Clicks on Same Element</h1>
-        <br />
-        
-        <h1 id="clickme">CLICK ME ONCE OR TWICE</h1>
-        
-        <h1 id="result">Result of Click1</h1>
-        
-
     <div class="ourservices">
         Charities
     </div>
         <div class="wrapper">
                 <div id="portfolioGrid">
-                  <a class="grid-item" href="#"> <!--target="_blank" rel="noopener" TARGET 1-->
+                  <a class="grid-item"> <!--target="_blank" rel="noopener" TARGET 1-->
                     <div class="overlay-top">
                       <h1>Name</h1>
                     </div>
                     <img src="logo/hold1.png" alt="#" />
                     <div class="overlay-bot">
-                      <p>Medical</p>
+                        <p>Small description of your charity</p>
+                      <section class="buttons">
+                            <div class="containerbutton" onclick="list1()">
+                              <div class="btn btn-1">
+                                <svg>
+                                  <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                </svg>
+                               See More
+                            </div>
+                            </div>
+                          </section>
                     </div>
-                  </a>
-                  <a class="grid-item" href="#"> <!--target="_blank" rel="noopener" TARGET 2-->
+                    </a>
+                  <a class="grid-item" > <!--target="_blank" rel="noopener" TARGET 2-->
                     <div class="overlay-top">
                       <h1>Name</h1>
                     </div>
                     <img src="logo/hold2.png" alt="#" />
                     <div class="overlay-bot">
-                      <p>Animal Care</p>
-                    </div>
+                            <p>Small description of your charity</p>
+                          <section class="buttons">
+                                <div class="containerbutton" onclick="list2()">
+                                  <div class="btn btn-1">
+                                    <svg>
+                                      <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                    </svg>
+                                   See More
+                                </div>
+                                </div>
+                              </section>
+                        </div>
                   </a>
-                  <a class="grid-item" href="#"> <!--target="_blank" rel="noopener" TARGET 3-->
+                  <a class="grid-item" > <!--target="_blank" rel="noopener" TARGET 3-->
                     <div class="overlay-top">
                       <h1>Name</h1>
                     </div>
                     <img src="logo/hold3.png" alt="#" />
                     <div class="overlay-bot">
-                      <p>Food Donation</p>
-                    </div>
+                            <p>Small description of your charity</p>
+                          <section class="buttons">
+                                <div class="containerbutton" onclick="list3()">
+                                  <div class="btn btn-1">
+                                    <svg>
+                                      <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                    </svg>
+                                   See More
+                                </div>
+                                </div>
+                              </section>
+                        </div>
                   </a>
-                  <a class="grid-item" href="#"> <!--target="_blank" rel="noopener" TARGET 4-->
+                  <a class="grid-item" > <!--target="_blank" rel="noopener" TARGET 4-->
                     <div class="overlay-top">
                       <h1>Name</h1>
                     </div>
@@ -83,7 +105,7 @@
                       <p>Water</p>
                     </div>
                   </a>
-                  <a class="grid-item" href="#"> <!--target="_blank" rel="noopener" TARGET 5-->
+                  <a class="grid-item" > <!--target="_blank" rel="noopener" TARGET 5-->
                     <div class="overlay-top">
                       <h1>Name</h1>
                     </div>
@@ -92,7 +114,7 @@
                       <p>Nature Cleanup</p>
                     </div>
                   </a>
-                  <a class="grid-item" href="#"> <!--target="_blank" rel="noopener" TARGET 6-->
+                  <a class="grid-item" > <!--target="_blank" rel="noopener" TARGET 6-->
                     <div class="overlay-top">
                       <h1>Name</h1>
                     </div>
@@ -101,7 +123,7 @@
                       <p>Pandemic Prevention</p>
                     </div>
                   </a>
-                  <a class="grid-item" href="#"> <!--target="_blank" rel="noopener" TARGET 7-->
+                  <a class="grid-item" > <!--target="_blank" rel="noopener" TARGET 7-->
                     <div class="overlay-top">
                       <h1>Name</h1>
                     </div>
@@ -110,7 +132,7 @@
                       <p>Cancer Research</p>
                     </div>
                   </a>
-                  <a class="grid-item" href="#"> <!--target="_blank" rel="noopener" TARGET 8-->
+                  <a class="grid-item" > <!--target="_blank" rel="noopener" TARGET 8-->
                     <div class="overlay-top">
                       <h1>Name</h1>
                     </div>
@@ -119,7 +141,7 @@
                       <p>Education</p>
                     </div>
                   </a>
-                  <a class="grid-item" href="#"> <!--target="_blank" rel="noopener" TARGET 9-->
+                  <a class="grid-item" > <!--target="_blank" rel="noopener" TARGET 9-->
                     <div class="overlay-top">
                       <h1>Name</h1>
                     </div>
@@ -130,8 +152,8 @@
                   </a>
                 </div>
               </div>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-              <script src="js/click.js"></script>
+              <script src="js/charities.js" type="text/javascript"></script>
+              <script type="text/javascript"></script>
 </body>
 <footer>
         <div class="containermx">
