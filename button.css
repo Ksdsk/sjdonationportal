@@ -55,25 +55,10 @@
   }
 }
 
-
-p a {
-  background: rgba(255, 255, 255, 0);
-  border-bottom: 1px solid;
-  color: #fff;
-  line-height: 1.4;
-  padding: .25em;
-  text-decoration: none;
-}
-
-p a:hover {
-  background: white;
-  color: #51d6f9;
-}
-
 .btn {
   color: #fff;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 45px;
   margin: 0 0 2em;
