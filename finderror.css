@@ -1,0 +1,351 @@
+html, body {
+
+    height: 100%;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+      "sans-serif";
+  }
+  
+  
+  .wrapper {
+    display: inline-block;
+    margin: 0 auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #portfolioGrid {
+    width: 100%;
+    margin: 75px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width:1000px) {
+    #portfolioGrid {
+      width: 100%;
+      margin: 75px 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width:500px) {
+    #portfolioGrid {
+      width: 100%;
+      margin: 75px 0;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .grid-item {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .grid-item > a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay-top:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 45%;
+    width: 10%;
+    text-align: center;
+    z-index: 1;
+    border-bottom: 3px solid #fff;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    display: block;
+  }
+  
+  .overlay-top, .overlay-bot {
+    position: absolute;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    height: 50%;
+    color: #fff;
+    opacity: 0.8;
+  }
+  
+  .overlay-top {
+    top: -50%;
+  }
+  
+  .overlay-bot {
+    bottom: -50%;
+    padding-bottom: 20%;
+  }
+  
+  .grid-item h1 {
+    padding: 50% 0 0 0;
+  }
+  
+  .grid-item p {
+    font-size: 0.7em;
+  }
+  
+  .overlay-top,
+  .overlay-bot {
+    transition: top 0.2s ease-out, bottom 0.2s ease-out;
+  }
+  
+  .grid-item h1,
+  .grid-item h2,
+  .grid-item p {
+    transition: padding 0.2s ease-out 0.4s;
+    font-weight: 300;
+  }
+  
+  .grid-item:hover .overlay-top {
+    top: 0;
+    transition-delay: 0.2s;
+  }
+  
+  .grid-item:hover .overlay-bot {
+    bottom: 0;
+    transition-delay: 0.2s;
+  }
+  
+  .grid-item:hover h1,
+  .grid-item:hover h2 {
+    padding: 25% 0;
+    margin: 0;
+  }
+  
+  .grid-item:hover p {
+    padding-top: 10%;
+    margin: 0;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+  }
+  .logo {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .centre {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .titletext {
+  
+      margin: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      font-size: 5vw;
+      font-family: 'Quicksand', sans-serif;
+      word-wrap: break-word;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+  
+  body {
+    text-align:center;
+  }
+  
+  #container {
+    color:#fff;
+    text-transform: uppercase;
+    font-size:36px;
+    font-weight:bold;
+    width:100%;
+    bottom:45%;
+    display:block;
+  }
+  
+  #flip {
+    height:50px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 10s linear infinite;
+  }
+  
+  #flip div div {
+    background:#42c58a;
+  }
+  #flip div:first-child div {
+    background: #DC143C;
+  }
+  #flip div:last-child div {
+    background:#4ec7f3;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+  
+  .containermv {
+      padding-top: 75px;
+      padding-bottom: 75px;
+  }
+  
+  .smalltext {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    margin: 25px;
+  }
+  
+  .ourservicesmx {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    clear: both;
+    justify-content: center;
+  }
+  
+  .ourservices {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    clear: both;
+    justify-content: center;
+  }
+  
+  .invistext {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    clear: both;
+    justify-content: center;
+    visibility: hidden;
+  }
+  
+  .hex {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+  }
+  
+  .flexcontainer{
+    display:inline-flex;
+    flex-wrap:wrap;
+    margin-top: 75px;
+  }
+  .flex-direction{
+    flex-direction:row;
+  }
+  .div1{
+    background-image: url(images/bgtriangle.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:460px;
+    min-width: auto;
+    font-size: auto;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
+  .div2{
+    background-image: url(images/bgtriangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 460px;
+    min-width: auto;
+    margin: 0 auto;
+    display: inline-block;
+    
+  }
+  
+  @media (max-width: 460px) {
+  
+    .div1{
+      background-image: url(images/bgtriangle.png) ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width:300px;
+      min-width: auto;
+      font-size: auto;
+      margin: 0 auto;
+      display: inline-block;
+    }
+    
+    .div2{
+      background-image: url(images/bgtriangle.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 300px;
+      min-width: auto;
+      margin: 0 auto;
+      display: inline-block;
+      
+    }
+  }
+  span{
+  
+      font-weight:bold;
+      display: block;
+      line-height: 25px;
+      text-align: center;
+  }
+  
+  .containermx {
+    margin-top: 75px;
+    width: 100%;
+  }
+  
+  .instagram {
+    display: inline-flex;
+    margin-top: 75px;
+  }
+  
+  .footertext {
+    font-family: 'Quicksand', sans-serif;
+    font-size: auto;
+    text-align: center;
+    clear: both;
+    margin: 25px;
+  }
+  
+  .smallertext {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    clear: both;
+    margin: 20px;
+  }
+  
+  .full-logo img{
+  
+    margin: 0 auto;
+    margin-top: 75px;
+    max-width: 50%;
+  }

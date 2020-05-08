@@ -1,5 +1,4 @@
 html, body {
-  background-color: #ffffff;
   height: 100%;
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
     "sans-serif";
@@ -329,7 +328,7 @@ span{
 
 .footertext {
   font-family: 'Quicksand', sans-serif;
-  font-size: auto;
+  font-size: 20px;
   text-align: center;
   clear: both;
   margin: 25px;
