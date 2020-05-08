@@ -348,3 +348,10 @@ span{
   margin-top: 75px;
   max-width: 50%;
 }
+
+.contactinfo p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  
+}
