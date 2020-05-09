@@ -79,7 +79,6 @@ main {
 }
 html {
   background: rgb(255, 255, 255);
-  color: #333;
   font-size: 10px;
   font-family: 'Avenir Next', Open Sans, sans-serif;
   line-height: 1.15;
@@ -143,7 +142,7 @@ a:hover {
 .options {
   margin: 8em 0;
 }
-.options .option {
+.options  {
   border-radius: .2em;
   border: 1px solid transparent;
 }

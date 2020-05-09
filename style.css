@@ -237,6 +237,18 @@ body {
   justify-content: center;
 }
 
+@media (max-width: 500px) {
+  .ourservicesmx {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    clear: both;
+    justify-content: center;
+  }
+}
+
 .invistext {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
@@ -321,6 +333,8 @@ span{
   width: 100%;
 }
 
+
+
 .instagram {
   display: inline-flex;
   margin-top: 75px;
@@ -354,4 +368,13 @@ span{
   font-size: 25px;
   text-align: center;
   
+}
+
+.privacypolicy {
+  font-family: 'Quicksand', sans-serif;
+  text-align: left;
+  font-size: 18px;
+  margin: 25px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }

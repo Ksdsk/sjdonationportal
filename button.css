@@ -70,7 +70,6 @@
  .btn {
    color: #fff;
    cursor: pointer;
-   font-size: 16px;
    font-size: 14px;
    font-weight: 400;
    line-height: 45px;
@@ -115,8 +114,8 @@
 }
 .btn-1:hover {
   background: rgba(225, 51, 45, 0);
-  font-weight: 900;
-  letter-spacing: 1px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
 }
 .btn-1:hover rect {
   stroke-width: 5;
