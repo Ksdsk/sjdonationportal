@@ -72,7 +72,7 @@ html, body {
   overflow: hidden;
   height: 50%;
   color: #fff;
-  opacity: 0.92;
+  opacity: 1.0;
 }
 
 .overlay-top {
