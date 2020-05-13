@@ -72,7 +72,7 @@ html, body {
   overflow: hidden;
   height: 50%;
   color: #fff;
-  opacity: 0.8;
+  opacity: 0.92;
 }
 
 .overlay-top {
@@ -85,6 +85,7 @@ html, body {
 }
 
 .grid-item h1 {
+  font-size: 1.4em;
   padding: 50% 0 0 0;
 }
 
@@ -333,7 +334,11 @@ span{
   width: 100%;
 }
 
-
+.logocontainer {
+  object-fit: contain;
+  height: auto;
+  width: auto;
+}
 
 .instagram {
   display: inline-flex;
@@ -367,6 +372,32 @@ span{
   font-family: 'Quicksand', sans-serif;
   font-size: 15px;
   text-align: center;
+}
+
+.charitydescription {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  line-height: 35px;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contactinfo {
+  background-color: white;
+}
+
+@media (min-width: 501px) {
+  .numbers500{
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .numbers1000 {
+    display: none;
+  }
 }
 
 .privacypolicy {

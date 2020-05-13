@@ -1,5 +1,5 @@
 function list1() {
-    window.location="charities/sjbbbs.html"
+    window.location="charities/sjbbbs"
 }
 function list2() {
     window.location="charities/charitynamehere-2"
