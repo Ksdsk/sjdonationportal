@@ -408,3 +408,15 @@ span{
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
+
+.privacypolicy h3 {
+  text-align: center;
+  margin: 25px;
+}
+.privacypolicy h2 {
+  text-align: center;
+  margin: 25px;
+}
+.privacypolicy h4 {
+  text-align: center;
+}
