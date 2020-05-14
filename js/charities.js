@@ -2,7 +2,7 @@ function list1() {
     window.location="charities/sjbbbs"
 }
 function list2() {
-    window.location="charities/charitynamehere-2"
+    window.location="charities/trc"
 }
 function list3() {
     window.location="charities/charitynamehere-3"
