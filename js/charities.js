@@ -5,7 +5,7 @@ function list2() {
     window.location="charities/trc"
 }
 function list3() {
-    window.location="charities/charitynamehere-3"
+    window.location="charities/horizonhealth"
 }
 function list4() {
     window.location="charities/charitynamehere-4"
