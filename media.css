@@ -26,7 +26,7 @@ html {
 }
 
 html, body {
-  background: #0e1a25;
+  background: #ffffff;
 }
 
 html {
@@ -43,6 +43,7 @@ html {
   text-align: center;
   width: 110rem;
   max-width: 100%;
+  margin-top: -75px
 }
 
 .soc li {

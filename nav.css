@@ -49,7 +49,7 @@ p {
 
 p highlight {
   font-weight: 600;
-  color: #907dda;
+  color: #37a8c4;
 }
 
 p:last-child {
@@ -239,10 +239,10 @@ ul.navbar-nav > li > a:focus {
 
 @media (min-width: 768px) {
   ul.navbar-nav > li.active {
-    color: #907dda;
+    color: #37a8c4;
     background: rgba(255, 255, 255, 0.15);
-    -webkit-box-shadow: inset 0 -3px 0 0 #907dda;
-            box-shadow: inset 0 -3px 0 0 #907dda;
+    -webkit-box-shadow: inset 0 -3px 0 0 #37a8c4;
+            box-shadow: inset 0 -3px 0 0 #37a8c4;
   }
 }
 
@@ -261,7 +261,7 @@ section:last-of-type {
 }
 
 section.focus .page-header {
-  color: #907dda;
+  color: #37a8c4;
 }
 
 section.focus .page-header:after {
@@ -288,7 +288,7 @@ section.focus .page-header:after {
   bottom: 0;
   width: 70px;
   height: 2px;
-  background: #907dda;
+  background: #37a8c4;
   -webkit-transform: translate(-50%, 0);
   -webkit-transform: translate3d(-50%, 0, 0);
   transform: translate(-50%, 0);
@@ -312,7 +312,7 @@ section.focus .page-header:after {
 
 .banner .bc-left {
   color: #e7e6f1;
-  background: #907dda;
+  background: #37a8c4;
 }
 
 .banner .bc-right {
@@ -366,8 +366,8 @@ a.tutorials-link {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
-  color: #907dda;
-  border: 2px solid #907dda;
+  color: #37a8c4;
+  border: 2px solid #37a8c4;
   -webkit-transition: background 0.2s ease, color 0.2s ease, -webkit-box-shadow 0.2s ease;
   transition: background 0.2s ease, color 0.2s ease, -webkit-box-shadow 0.2s ease;
   transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
@@ -376,7 +376,7 @@ a.tutorials-link {
 
 a.tutorials-link:hover {
   color: #e7e6f1;
-  background: #907dda;
+  background: #37a8c4;
   -webkit-box-shadow: 0 6px 12px -4px rgba(0, 0, 0, 0.3);
           box-shadow: 0 6px 12px -4px rgba(0, 0, 0, 0.3);
 }
@@ -403,7 +403,7 @@ a.tutorials-link:hover {
   text-decoration: none;
   padding: 0;
   color: #e7e6f1;
-  background: #907dda;
+  background: #37a8c4;
   border: none;
   border-radius: 100%;
   -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
@@ -574,7 +574,7 @@ a.tutorials-link:hover {
   text-transform: uppercase;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   letter-spacing: 2px;
-  color: #907dda;
+  color: #37a8c4;
 }
 
 #home p {
@@ -858,7 +858,7 @@ a.tutorials-link:hover {
   text-transform: uppercase;
   line-height: 24px;
   letter-spacing: 2px;
-  color: #907dda;
+  color: #37a8c4;
 }
 
 #features .feature p {
@@ -881,7 +881,7 @@ a.tutorials-link:hover {
   max-width: 450px;
   height: 315px;
   margin: 0 auto;
-  border: 4px solid #826dd5;
+  border: 4px solid #37a8c4;
   border-bottom-color: transparent;
   border-radius: 6px;
   overflow: hidden;
@@ -908,7 +908,7 @@ a.tutorials-link:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #826dd5;
+  background: #37a8c4;
 }
 
 #features .animated-scroll .scroll-header .scroll-nav {
@@ -1342,7 +1342,7 @@ a.tutorials-link:hover {
     background: rgba(255, 255, 255, 0.7);
   }
   40%, to {
-    background: #907dda;
+    background: #37a8c4;
   }
 }
 
@@ -1351,79 +1351,79 @@ a.tutorials-link:hover {
     background: rgba(255, 255, 255, 0.7);
   }
   40%, to {
-    background: #907dda;
+    background: #37a8c4;
   }
 }
 
 @-webkit-keyframes scrollColor-2 {
   from, 24% {
-    background: #907dda;
+    background: #37a8c4;
   }
   24.2%, 28% {
     background: #b2a5e5;
   }
   28.2%, 39.9% {
-    background: #907dda;
+    background: #37a8c4;
   }
   40%, 69.9% {
     background: rgba(255, 255, 255, 0.7);
   }
   70%, to {
-    background: #907dda;
+    background: #37a8c4;
   }
 }
 
 @keyframes scrollColor-2 {
   from, 24% {
-    background: #907dda;
+    background: #37a8c4;
   }
   24.2%, 28% {
     background: #b2a5e5;
   }
   28.2%, 39.9% {
-    background: #907dda;
+    background: #37a8c4;
   }
   40%, 69.9% {
     background: rgba(255, 255, 255, 0.7);
   }
   70%, to {
-    background: #907dda;
+    background: #37a8c4;
   }
 }
 
 @-webkit-keyframes scrollColor-3 {
   from, 53.8% {
-    background: #907dda;
+    background: #37a8c4;
   }
   54%, 57.8% {
     background: #b2a5e5;
   }
   58%, 69.9% {
-    background: #907dda;
+    background: #37a8c4;
   }
   70%, 99.9% {
     background: rgba(255, 255, 255, 0.7);
   }
   to {
-    background: #907dda;
+    background: #37a8c4;
   }
 }
 
 @keyframes scrollColor-3 {
   from, 53.8% {
-    background: #907dda;
+    background: #37a8c4;
   }
   54%, 57.8% {
     background: #b2a5e5;
   }
   58%, 69.9% {
-    background: #907dda;
+    background: #37a8c4;
   }
   70%, 99.9% {
     background: rgba(255, 255, 255, 0.7);
   }
   to {
-    background: #907dda;
+    background: #37a8c4;
   }
 }
 
@@ -1640,7 +1640,7 @@ a.tutorials-link:hover {
     background: #dcdfeb;
   }
   40.2%, 70% {
-    background: #907dda;
+    background: #37a8c4;
   }
   75%, to {
     background: #dcdfeb;
@@ -1652,7 +1652,7 @@ a.tutorials-link:hover {
     background: #dcdfeb;
   }
   40.2%, 70% {
-    background: #907dda;
+    background: #37a8c4;
   }
   75%, to {
     background: #dcdfeb;
