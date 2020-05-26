@@ -8,7 +8,7 @@ function list3() {
     window.location="charities/horizonhealth"
 }
 function list4() {
-    window.location="charities/charitynamehere-4"
+    window.location="charities/thesalvationarmy"
 }
 function list5() {
     window.location="charities/charitynamehere-5"

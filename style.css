@@ -399,6 +399,9 @@ span{
   background-color: white;
 }
 
+.contactinfo a {
+  color: black;
+}
 @media (min-width: 501px) {
   .numbers500{
     display: none;
