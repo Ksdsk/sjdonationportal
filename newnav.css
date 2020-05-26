@@ -20,7 +20,7 @@ div.desknav a
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     div.desknav {
         display:none;
     }
@@ -148,18 +148,18 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 
 /* Media qurey section */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .containermobilenav {
         margin: 0;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .nav {
         display:none;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
     .nav {
 
         height: 110px;
