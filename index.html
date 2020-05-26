@@ -17,21 +17,24 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Lato:700|Quicksand:300|Roboto:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
     <link href="main.css" rel="stylesheet">
     <link href="reveal-content.css" rel="stylesheet">
     <link href="scroll.css" rel="stylesheet">
     <link href="banner.css" rel="stylesheet">
     <link rel="shortcut icon" href="logo/favicon.ico" type="image/x-icon">
     <link rel="icon" href="logo/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/button.css">
+    <link rel="stylesheet" href="/newnav.css">
 </head>
 <header>
-        <div class="container">
+        <div class="desknav">
                 <div class="logo">
                     <div class="centre">
                         <a href="/">
-                                <img src="logo/sjdp_t.png" alt="logo" width="150px" height="150px">
+                                <img src="/logo/sjdp_t.png" alt="logo" width="150px" height="150px">
                         </a>
 
                     </div>
@@ -40,18 +43,57 @@
                         <a href="/">HOME</a>   
                         <a href="/donate">CHARITIES</a>       
                         <a href="/news">NEWS</a>
-                        <a href="/contact">CONTACT</a>
-                </div>
+                        <a href="/events">EVENTS</a>
+                        <a href="/contact">CONTACT US</a>       
+                      </div>
             </div>
-    </header>
+    <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                            <img src="/logo/circlelogoblue.png" alt="" width="75px" height="auto">
+                    </a>
+
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/donate">Charities</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/events">Events</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+            
+    
+    <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+        </script>  
+        <script src="/js/mobilenav.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+</header>
 <body style="padding:0px; margin:0px; background-color:#fff;font-family:arial,helvetica,sans-serif,verdana,'Open Sans'"></body>
 
 <!--SJDP INTRO-->
-    <div class="container">
-        <div class="titletext">
+
+        <div class="ourservices">
             SAINT JOHN DONATION PORTAL
         </div>
-    </div>
+
 
 
 <!--Featured Charities-->

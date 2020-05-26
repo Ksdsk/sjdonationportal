@@ -1,4 +1,8 @@
-$('#toggle').click(function() {
+$('.navTrigger').click(function () {
     $(this).toggleClass('active');
-    $('#overlay').toggleClass('open');
-   });
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
+

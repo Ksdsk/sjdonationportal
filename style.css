@@ -238,6 +238,11 @@ body {
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .ourservices {
+    padding-top: 120px;
+  }
+}
 @media (max-width: 500px) {
   .ourservicesmx {
     font-family: 'Quicksand', sans-serif;
@@ -368,6 +373,12 @@ span{
   max-width: 50%;
 }
 
+@media screen and (max-width: 768px) {
+  .full-logo img{
+    padding-top: 120px;
+  }
+}
+
 .contactinfo p {
   font-family: 'Quicksand', sans-serif;
   font-size: 15px;
@@ -419,4 +430,8 @@ span{
 }
 .privacypolicy h4 {
   text-align: center;
+}
+
+.privacypolicy a{
+  color: black;
 }
