@@ -218,6 +218,23 @@ body {
   margin: 25px;
 }
 
+.smalltextdesc {
+  font-family: 'Quicksand', sans-serif;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  line-height: 25px;
+}
+
+@media (max-width: 768px) {
+  .smalltextdesc {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 .ourservicesmx {
   font-family: 'Quicksand', sans-serif;
   font-size: 50px;

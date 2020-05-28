@@ -11,7 +11,7 @@ function list4() {
     window.location="charities/thesalvationarmy"
 }
 function list5() {
-    window.location="charities/charitynamehere-5"
+    window.location="charities/make-a-wish-atlantic"
 }
 function list6() {
     window.location="charities/charitynamehere-6"
