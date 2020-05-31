@@ -14,7 +14,7 @@ function list5() {
     window.location="charities/make-a-wish-atlantic"
 }
 function list6() {
-    window.location="charities/charitynamehere-6"
+    window.location="charities/kvoasis"
 }
 function list7() {
     window.location="charities/charitynamehere-7"
