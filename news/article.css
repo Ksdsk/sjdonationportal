@@ -18,6 +18,14 @@
     min-height: 400px;
 }
 
+.article-centerimg3 {
+    background-image: url('/images/Featured.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px;
+}
+
 
 ul {
     list-style: disc outside none;
@@ -68,5 +76,12 @@ ul {
         background-repeat: no-repeat;
         width: 100%;
         min-height:300px;
+    }
+    .article-centerimg3 {
+            background-image: url('/images/Featured.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height:300px;
     }
 }

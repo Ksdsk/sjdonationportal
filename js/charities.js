@@ -17,7 +17,7 @@ function list6() {
     window.location="charities/kvoasis"
 }
 function list7() {
-    window.location="charities/charitynamehere-7"
+    window.location="charities/georgefloyd"
 }
 function list8() {
     window.location="charities/charitynamehere-8"
