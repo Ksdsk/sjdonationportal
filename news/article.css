@@ -14,8 +14,8 @@
     background-image: url('/images/sjlaunch.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    min-height: 400px;
+    max-width: 30px;
+    height: auto;
 }
 
 .article-centerimg3 {
@@ -26,6 +26,21 @@
     min-height: 400px;
 }
 
+.article-centerimg4 {
+    background-image: url('/images/lovestripasl.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px;
+}
+
+.article-centerimg5 {
+    background-image: url('/images/helpasllist.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px;
+}
 
 ul {
     list-style: disc outside none;
@@ -40,6 +55,21 @@ ul {
 
 }
 
+.float-right img {
+    float: right;
+    display: inline-flex;
+    width: 50%;
+    height: auto;
+    padding-left: 30px;
+}
+
+.float-left img {
+    float: left;
+    display: inline-flex;
+    width: 50%;
+    height: auto;
+    padding-right: 30px;
+}
 .article-author {
     font-style: italic;
 }
