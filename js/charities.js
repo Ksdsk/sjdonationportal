@@ -20,7 +20,7 @@ function list7() {
     window.location="charities/georgefloyd"
 }
 function list8() {
-    window.location="charities/charitynamehere-8"
+    window.location="charities/hamptonfoodbasket"
 }
 function list9() {
     window.location="charities/charitynamehere-9"
