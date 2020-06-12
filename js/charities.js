@@ -23,5 +23,5 @@ function list8() {
     window.location="charities/hamptonfoodbasket"
 }
 function list9() {
-    window.location="charities/charitynamehere-9"
+    window.location="charities/hestiahouse"
 }

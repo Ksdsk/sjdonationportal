@@ -7,6 +7,6 @@
 {"name":"KV Oasis Youth Centre", "category": "mental health, career, mentoring, leadership", "place": "community", "demographic": "youths, teenagers, children", "image": "logo/kvoasis.png", "desc": "Providing safe, stigma-free, and accessible space for youth resources", "onclick": "list6()", "alias": "none", "alt": "kv oasis, kennebecasis valley"},
 {"name":"Justice for George", "category": "police brutality racism violence protest", "place": "United States", "demographic": "youths, teenagers, adults", "image": "logo/justicefloydlogo.png", "desc": "#ICan'tBreathe Ending police brutality and racism", "onclick": "list7()", "alias": "US George Floyd", "alt": "#ICan'tBreathe"},
 {"name":"Hampton Food Basket", "category": "food bank", "place": "food bank", "demographic": "NULLFIELD", "image": "logo/hamptonfoodbasket.png", "desc": "Relieving community hunger today", "onclick": "list8()", "alias": "HFB food bank", "alt": "Hampton Food Bank"},
-{"name":"Charity Name Here", "category": "none", "place": "none", "demographic": "none", "image": "logo/hold9.png", "desc": "Short charity description", "onclick": "list9()", "alias": "none", "alt": "placeholder"}
+{"name":"Hestia House", "category": "abuse mental aid physical safe environment family violence", "place": "community home", "demographic": "woman women children family adult", "image": "logo/hestiahouse.png", "desc": "Providing a safe environment for women and children", "onclick": "list9()", "alias": "HH inc", "alt": "Hestia House Inc"}
 
 ]
