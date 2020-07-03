@@ -431,7 +431,7 @@ span{
 }
 
 .contactinfo {
-  margin-left: 20px;
+  margin-left: 10rem;
   margin-top: -20px;
 }
 @media screen and (max-width: 768px) {
@@ -448,12 +448,20 @@ span{
     margin-left: 0px;
     flex: 0;
   }
+  .centermydiv {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
+
 
 @media screen and (min-width: 769px) {
   .donateflex-child {
     flex: 1;
     margin-left: 10rem;
+  }
+  .centermydiv {
+    text-align: center;
   }
 }
 
