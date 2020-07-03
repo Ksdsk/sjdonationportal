@@ -412,13 +412,53 @@ span{
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.contactinfo {
-  background-color: white;
+
+
+.contactinfo p {
+  color: black;
+  text-align: left;
 }
 
 .contactinfo a {
   color: black;
+  text-align: left;
 }
+
+.donateflex {
+  margin-top: 50px;
+  display:flex;
+
+}
+
+.contactinfo {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+@media screen and (max-width: 768px) {
+  .donateflex {
+    display: block
+  }
+
+  
+  .contactinfo p {
+    text-align: center;
+  }
+
+  .donateflex-child {
+    margin-left: 0px;
+    flex: 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .donateflex-child {
+    flex: 1;
+    margin-left: 10rem;
+  }
+}
+
+
+
 @media (min-width: 501px) {
   .numbers500{
     display: none;

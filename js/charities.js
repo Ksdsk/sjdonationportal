@@ -25,3 +25,6 @@ function list8() {
 function list9() {
     window.location="charities/hestiahouse"
 }
+function list10() {
+    window.location="charities/habitatforhumanity"
+}
