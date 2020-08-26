@@ -28,3 +28,9 @@ function list9() {
 function list10() {
     window.location="charities/habitatforhumanity"
 }
+function list11() {
+    window.location="charities/keideniwk"
+}
+function list12() {
+    window.location="charities/iwk"
+}
